@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+
+
+
+body{
+    
+        margin: 0px auto;
+        
+        width:1420px;
+}
+
+a { text-decoration: none; color: black; }
+     a:visited { text-decoration: none; }
+     a:hover { text-decoration: none; }
+     a:focus { text-decoration: none; }
+     a:hover, a:active { text-decoration: none; }
+
+#container{
+    font-family: 'Inconsolata', monospace;
+    width: 1420px;
+    margin: 0px auto;
+    height: 1050px;
+}
+
+#header{
+    width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    position: fixed;
+    z-index: 110;
+ 
+}
+
+#menus{
+    display:flex;
+    justify-content: space-between; 
+}
+
+
+#shapeimage{
+    margin: 180px 0px 0px 300px;
+    
+    
+}
+
+.textBox1{
+    font-size: 40px;
+    font-weight: 400;
+    
+}
+
+.textBox1 :hover{
+    color: white; 
+}
+
+
+
+.gap{width: 100%;}
+
+.h50{height: 50px;}
+.h100{height: 100px;}
+
+
+
+
+
+#nav{
+    height: 50px;
+    width: 840px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
+}
+
+#whitebox{
+    background-color: white;   
+}
+
+#menus li{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    font-weight: 400;
+    display:inline-flex;
+    font-size: 23px;
+    font-weight: 400;
+    border: 2px solid #000000;
+    border-radius: 2em;
+    height: 30px;
+    width: 220px;
+    margin: 0 0 0 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+#menus li:hover{
+    background-color: white;
+    text-decoration: none;
+}     
+
+#mainContents{
+    height:1600px;
+}
+
+
+
+#footer{
+    height: 100px; 
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 400;
+    display:flex;    
+    width:1440px;
+}
+
+
+#underText{
+    height: 30px;
+    width: 260px;
+    border-radius: 55%;    
+   
+    display:flex;
+    margin: 5px 12px 0 12px;
+    border: 2px solid #000000;   
+    border-radius: 2em; 
+    justify-content: center;
+    align-items: center;
+}
+
+#underText:hover{
+    background-color: white;
+
+}
+
+#copyright{
+    margin-top: 10px;
+}
+
+ 

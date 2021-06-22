@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700&display=swap');
+
+
+body{
+    margin: 0px;
+}
+
+a { text-decoration: none; color: black; }
+     a:visited { text-decoration: none; }
+     a:hover { text-decoration: none; }
+     a:focus { text-decoration: none; }
+     a:hover, a:active { text-decoration: none; }
+
+
+#container{
+    font-family: 'Inconsolata', monospace;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;    
+}
+
+#header{
+    width: 1420px;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+   
+    position: fixed;
+    z-index: 110;
+    margin-top: 50px;
+}
+
+#menus{
+    display:flex;
+    justify-content: space-between; 
+}
+
+
+.textBox1{   
+    font-family: "Inconsolata";
+    font-size: 40px;
+    font-weight: 400;
+    /*background-color: aqua;*/   
+   
+}
+
+.textBox1 :hover{
+    color: white; 
+}
+
+
+
+#nav{
+    height: 50px;
+    width: 840px;
+    /*background-color: cornsilk; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;   
+}
+
+#whitebox{
+    background-color: white;   
+}
+
+#menus li{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    font-weight: 400;
+   /*
+    border-style: solid; 
+    border-color: black;*/ 
+    display:inline-flex;
+    font-size: 23px;
+    font-weight: 400;
+    /*background-color: grey;*/
+    border: 2px solid #000000;
+    border-radius: 2em;
+    height: 30px;
+    width: 220px;
+    margin: 0 0 0 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#menus li:hover{
+    background-color: white;
+    text-decoration: none;
+}
+ 
+
+
+.gap{width: 100%;}
+
+
+
+
+
+#section{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;  
+    margin-top: 200px;
+}
+
+.row{
+    width:1440px;
+    display:flex;
+}
+
+.col_2{width:16.66%; padding: 0px 10px;}
+.col_10{width:83.33%; padding: 0px 10px;}
+.col_12{width:100%; padding: 0px 10px;}
+
+.h10{height: 10px;}
+.h50{height: 50px;}
+.h100{height: 100px;}
+.h150{height: 150px;}
+.h200{height: 200px;}
+.h250{height: 250px;}
+.h330{height: 330px;}
+.h380{height: 380px;}
+.h600{height: 600px;}
+.h490{height: 490px;}
+.h480{height: 480px;}
+.h550{height: 550px;}
+
+
+
+
+
+.flexBox{display: flex;}
+.alignCenter{justify-content: center;}
+.alignLeft{justify-content: flex-start;}
+
+.blurBg{background-image: url(img/yellowbox2.png); background-repeat: no-repeat; background-size: 100% 100%; }
+
+p{
+    font-size: 35px;  
+}
+
+.textBox{
+    width: 80%;
+    margin: 0px;
+    padding: 110px 0px 80px 120px;
+   
+}
+
+
+
+
+.textPadding{
+    padding-top: 140px;  
+}
+
+.textPadding5{
+    padding-top: 160px;  
+}
+
+.numberbox{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+
+.numbering{
+    width: 70px;
+}
+
+.mainText_kr{
+    font-family: "Noto sans";
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 55px;
+    
+}
+.mainText_En{
+    font-family: 'Inconsolata', monospace;
+    font-size: 34px;
+    font-weight: 300;
+    padding-left: 10px;
+    
+    
+}
+
+p{
+    margin: 10px;
+}
+
+#footer{
+    height: 100px; 
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 400;
+    display:flex;    
+    width:1440px;
+   
+}
+
+
+#underText{
+    height: 30px;
+    width: 260px;
+    border-radius: 55%;    
+    display:flex;
+    margin: 5px 12px 0 12px;
+    border: 2px solid #000000;   
+    border-radius: 2em; 
+    justify-content: center;
+    align-items: center;
+}
+
+#underText:hover{
+    background-color: white;
+
+}
+
+#copyright{
+    margin-top: 10px;
+}
