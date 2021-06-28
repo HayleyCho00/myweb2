@@ -104,12 +104,16 @@ p{  margin: 380px 0px 0px 490px;
     width: 830px;
     
     line-height: 40px;
-
-
 }
 
+.mainText_kr{
+    font-family: "Noto sans";
+}
 
-
+.mainText_En{
+    font-family: 'Inconsolata', monospace;
+    margin-top: 900px;
+}
 
 
 a { text-decoration: none; color: black; }
